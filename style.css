@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Matter;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    overflow-x: hidden;
+}
+#main{
+    width: 100%;
+}
+#navbar{
+    width: 100%;
+    background-color: #570AF5;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    justify-content: space-between;
+}
+#navbar #navright{
+    width: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+#navbar #navleft{
+    width: 10%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+#navbar #navleft h1{
+    font-size: 2.5vw;
+}
+#navbar #navright a{
+    font-size: 1vw;
+    text-decoration: none;
+    font-weight: 600;
+    color: aliceblue;
+}
+.header{
+    width: 100%;
+    /* background-color: #000; */
+    /* color: aliceblue; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 2vw;
+}
+.header h1{
+    padding: 1.5vw;
+    font-size: 2.5vw;
+
+}
+.container{
+    background-color: rgb(242, 247, 251);
+    margin: 3vw;
+    border-radius: 50px;
+    padding: 3vw 3vw;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2vw;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+}
+.icons{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    background-color: #e1e8ed;
+    height: 170px;
+    border-radius: 50px;
+    padding: 2vw;
+}
+.icons .img{
+    /* background-color: aqua; */
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    /* background-color: yellow; */
+    transition: 0.5s ease-in;
+}
+.icons .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.icons .info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.icons .info p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    line-height: 0.5;
+    letter-spacing: 0.1px;
+}
+.icons .info h3{
+    font-size: 1.9vw;
+    font-weight: 700;
+    letter-spacing: -.2px;
+}
+.btn-add{
+    position: relative;
+    left: 85%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px #000 solid; */
+    border-radius: 50px;
+    padding: 20px;
+    height: 40px;
+    background-color: #e1e8ed;
+    cursor: pointer;
+}
+.btn-add i{
+    font-size: 1.5vw;
+}
+.btn-add h3{
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+.btn-add:hover{
+    box-shadow: 5px 3px #747373;
+}
