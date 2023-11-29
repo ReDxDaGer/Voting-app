@@ -18,9 +18,9 @@ while True:
     if voters_id == []:
         print("Voting is done!!")
         if candidate1_vote>candidate2_vote:
-            print(f"{candidate1_name} won thr voting , the votes for {candidate1_name} is {candidate1_vote} ")
+            print(f"{candidate1_name} won the voting , the votes for {candidate1_name} is {candidate1_vote} ")
         elif candidate2_vote>candidate1_vote:
-            print(f"{candidate2_name} won thr voting , the votes for {candidate2_name} is {candidate2_vote} ")
+            print(f"{candidate2_name} won the voting , the votes for {candidate2_name} is {candidate2_vote} ")
         else:
             print("The voting is tied!!")
         break
